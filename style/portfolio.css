@@ -10,6 +10,50 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h3 {}
+:root {
+    --primary: #181818;
+    --secondary: #fd6e0a;
+}
+
+.btn-primary {
+    background-color: var(--secondary);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 /* nav related css */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: var(--secondary);
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #474747;
+    font-size: 20px;
+}
