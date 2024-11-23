@@ -189,6 +189,11 @@ nav li a {
     padding: 20px;
 }
 
+.single-service h3 {
+    margin: 15px 0px;
+    color: #474747;
+}
+
 /* Resume Section CSS */
 .resume-area>.section-description {
     margin-bottom: 50px;
