@@ -235,3 +235,44 @@ section.resume-area>.btn-primary {
     margin: 40px auto 0px;
     display: block;
 }
+
+/* footer Area CSS */
+footer {
+    padding: 60px 160px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff8f3;
+    gap: 6%;
+}
+
+.contact-item {
+    flex-basis: 47%;
+}
+
+.contact-item h3 {
+    font-size: 35px;
+    color: #474747;
+}
+
+.contact-item p {
+    margin: 25px 0;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    box-shadow: 0px 6px 50px #ddd;
+}
+
+.contact-form [type="submit"] {
+    margin-top: 15px;
+}
