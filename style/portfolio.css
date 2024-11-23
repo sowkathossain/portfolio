@@ -15,6 +15,14 @@ body {
     --secondary: #fd6e0a;
 }
 
+p {
+    color: #757575;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
 .btn-primary {
     background-color: var(--secondary);
     padding: 15px 35px;
@@ -55,7 +63,6 @@ section {
 .section-description p {
     line-height: 30px;
     font-size: 18px;
-    color: #474747;
 }
 
 /* Header Area */
@@ -162,6 +169,69 @@ nav li a {
 }
 
 /* services section */
-.services>.section-description {
-    margin: 60px 125px;
+.service-area>.section-description {
+    margin: 0 125px;
+}
+
+.service-area>.section-description {
+    margin: 0 125px 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-service {
+    flex-basis: 23%;
+    box-shadow: 0px 6px 50px #ddd;
+    padding: 20px;
+}
+
+/* Resume Section CSS */
+.resume-area>.section-description {
+    margin-bottom: 50px;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.resume-column {
+    flex-basis: 49%;
+}
+
+.resume-title h3 {
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-qualification h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 20px;
+}
+
+.resume-qualification h6 {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.resume-qualification p {
+    margin-top: 20px;
+}
+
+.quali-description {
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+section.resume-area>.btn-primary {
+    margin: 40px auto 0px;
+    display: block;
 }
