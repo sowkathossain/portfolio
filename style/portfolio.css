@@ -282,3 +282,9 @@ footer {
 .contact-form [type="submit"] {
     margin-top: 15px;
 }
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: 0;
+}
